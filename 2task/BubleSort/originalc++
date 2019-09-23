@@ -1,0 +1,21 @@
+void BubbleSort(apvector <int> &num)
+{
+      int i, j, flag = 1;
+      int temp;
+      int numLength = num.length( );
+      for(i = 1; (i <= numLength) && flag; i++)
+     {
+          flag = 0;
+          for (j=0; j < (numLength -1); j++)
+         {
+               if (num[j+1] > num[j])
+              {
+                    temp = num[j];
+                    num[j] = num[j+1];
+                    num[j+1] = temp;
+                    flag = 1;
+               }
+          }
+     }
+     return;
+}

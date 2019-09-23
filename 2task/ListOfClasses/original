@@ -1,0 +1,68 @@
+public class Book
+{
+  private int id;
+  private String name;
+  private List<BrowsedBy> browsedByList
+
+  public Book(int id , String name)
+  {
+    this.id = id;
+    this.name = name;
+    browsedBylist = new List<BrowsedBy>();
+  }
+  public void addBrowsedByList(int id, String name, String lastName, String date)
+  {
+    browsedByList.add(id,name,lastName,date);
+  }
+}
+
+public class BrowsedBy
+{
+  private int id;
+  private String name;
+  private String lastName;
+  private int date;
+
+  public BrowsedBy(int id, String name, String lastName, int date)
+  {
+    this.id = id;
+    this.name = name;
+    this.lastName = lastName;
+    this.date = date;
+  }
+
+  public void setId(int id)
+  {
+    this.id = id;
+  }
+  public void getId()
+  {
+    return id;
+  }
+  public void setName(String name)
+  {
+    this.name = name;
+  }
+  public void getName()
+  {
+    return id;
+  }
+  public void setLastName(String lastName)
+  {
+    this.lastName = lastName;
+  }
+  public void getLastName()
+  {
+    return lastName;
+  }
+  public void setDate(int date)
+  {
+    this.date = date;
+  }
+  public void getDate()
+  {
+    return date;
+  }
+
+
+}
