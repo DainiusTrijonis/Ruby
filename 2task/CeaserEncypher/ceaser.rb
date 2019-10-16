@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# Ceaser cipher
+
 def cipher(org, offset)
   org.chars.map { |c| (c.to_s.ord + offset).chr }.join
 end

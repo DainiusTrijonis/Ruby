@@ -43,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Ruby.buble_sort">
     <configuration name="buble_sort" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="2task" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -144,6 +144,9 @@
       <workItem from="1570997060968" duration="834000" />
       <workItem from="1570997918217" duration="706000" />
       <workItem from="1571172929252" duration="1301000" />
+      <workItem from="1571208014899" duration="1765000" />
+      <workItem from="1571210927423" duration="866000" />
+      <workItem from="1571213179667" duration="64000" />
     </task>
     <servers />
   </component>
@@ -151,11 +154,11 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/2task@ceaser.rcov" NAME="ceaser Coverage Results" MODIFIED="1571173523717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CeaserEncypher" MODULE_NAME="2task" />
+    <SUITE FILE_PATH="coverage/2task@ceaser.rcov" NAME="ceaser Coverage Results" MODIFIED="1571208042951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CeaserEncypher" MODULE_NAME="2task" />
     <SUITE FILE_PATH="coverage/2task@Buble_Sort.rcov" NAME="Buble_Sort Coverage Results" MODIFIED="1570997472537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BubleSort" MODULE_NAME="2task" />
     <SUITE FILE_PATH="coverage/2task@main__1_.rcov" NAME="main (1) Coverage Results" MODIFIED="1569173497063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classofclasses" MODULE_NAME="2task" />
-    <SUITE FILE_PATH="coverage/2task@buble_sort.rcov" NAME="buble_sort Coverage Results" MODIFIED="1571174171801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BubleSort" MODULE_NAME="2task" />
-    <SUITE FILE_PATH="coverage/2task@main.rcov" NAME="main Coverage Results" MODIFIED="1571173515600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListOfClasses" MODULE_NAME="2task" />
+    <SUITE FILE_PATH="coverage/2task@buble_sort.rcov" NAME="buble_sort Coverage Results" MODIFIED="1571212784157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BubleSort" MODULE_NAME="2task" />
+    <SUITE FILE_PATH="coverage/2task@main.rcov" NAME="main Coverage Results" MODIFIED="1571208031610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListOfClasses" MODULE_NAME="2task" />
     <SUITE FILE_PATH="coverage/2task@BubleSort.rcov" NAME="BubleSort Coverage Results" MODIFIED="1569230531504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BubleSort" MODULE_NAME="2task" />
     <SUITE FILE_PATH="coverage/2task@Ceaser.rcov" NAME="Ceaser Coverage Results" MODIFIED="1570997771051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CeaserEncypher" MODULE_NAME="2task" />
   </component>

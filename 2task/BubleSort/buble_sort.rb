@@ -8,21 +8,7 @@ class BubbleSort
   end
 
   def sort
-    loop do
-      swapped = false
-      (@n - 1).times do |i|
-        if @array[i] < @array[i + 1]
-          @array[i], @array[i + 1] = @array[i + 1], @array[i]
-          swapped = true
-        end
-      end
-      break unless swapped
-    end
-    @array
-  end
-
-  def sort_reverse
-    loop do
+    (@n - 1).times do
       swapped = false
       (@n - 1).times do |i|
         if @array[i] > @array[i + 1]
@@ -30,7 +16,19 @@ class BubbleSort
           swapped = true
         end
       end
-      break unless swapped
+    end
+    @array
+  end
+
+  def sort_reverse
+    (@n - 1).times do
+      swapped = false
+      (@n - 1).times do |i|
+        if @array[i] < @array[i + 1]
+          @array[i], @array[i + 1] = @array[i + 1], @array[i]
+          swapped = true
+        end
+      end
     end
     @array
   end
