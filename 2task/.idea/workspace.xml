@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="529e7776-17ea-4cc5-914e-cb5d6b6910ea" name="Default Changelist" comment="" />
+    <list default="true" id="529e7776-17ea-4cc5-914e-cb5d6b6910ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +18,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Ruby Class" />
+        <option value="Ruby File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -25,9 +32,11 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1RBmYa9O3grr0IUKU2DzjldlmfN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ListOfClasses" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
@@ -43,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.buble_sort">
+  <component name="RunManager" selected="Ruby.ruby1">
     <configuration name="buble_sort" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="2task" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -116,8 +125,27 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="ruby1" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="2task" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/ruby1" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/ruby1/ruby1.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Ruby.ruby1" />
         <item itemvalue="Ruby.buble_sort" />
       </list>
     </recent_temporary>
@@ -147,18 +175,31 @@
       <workItem from="1571208014899" duration="1765000" />
       <workItem from="1571210927423" duration="866000" />
       <workItem from="1571213179667" duration="64000" />
+      <workItem from="1571213444215" duration="1829000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/2task@ceaser.rcov" NAME="ceaser Coverage Results" MODIFIED="1571208042951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CeaserEncypher" MODULE_NAME="2task" />
+    <SUITE FILE_PATH="coverage/2task@ruby1.rcov" NAME="ruby1 Coverage Results" MODIFIED="1571215932419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby1" MODULE_NAME="2task" />
+    <SUITE FILE_PATH="coverage/2task@ceaser.rcov" NAME="ceaser Coverage Results" MODIFIED="1571213507751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CeaserEncypher" MODULE_NAME="2task" />
     <SUITE FILE_PATH="coverage/2task@Buble_Sort.rcov" NAME="Buble_Sort Coverage Results" MODIFIED="1570997472537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BubleSort" MODULE_NAME="2task" />
     <SUITE FILE_PATH="coverage/2task@main__1_.rcov" NAME="main (1) Coverage Results" MODIFIED="1569173497063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classofclasses" MODULE_NAME="2task" />
-    <SUITE FILE_PATH="coverage/2task@buble_sort.rcov" NAME="buble_sort Coverage Results" MODIFIED="1571212784157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BubleSort" MODULE_NAME="2task" />
-    <SUITE FILE_PATH="coverage/2task@main.rcov" NAME="main Coverage Results" MODIFIED="1571208031610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListOfClasses" MODULE_NAME="2task" />
+    <SUITE FILE_PATH="coverage/2task@buble_sort.rcov" NAME="buble_sort Coverage Results" MODIFIED="1571215485221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BubleSort" MODULE_NAME="2task" />
+    <SUITE FILE_PATH="coverage/2task@main.rcov" NAME="main Coverage Results" MODIFIED="1571213513376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListOfClasses" MODULE_NAME="2task" />
     <SUITE FILE_PATH="coverage/2task@BubleSort.rcov" NAME="BubleSort Coverage Results" MODIFIED="1569230531504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BubleSort" MODULE_NAME="2task" />
     <SUITE FILE_PATH="coverage/2task@Ceaser.rcov" NAME="Ceaser Coverage Results" MODIFIED="1570997771051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CeaserEncypher" MODULE_NAME="2task" />
   </component>
