@@ -43,8 +43,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.BubleSort">
-    <configuration name="BubleSort" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+  <component name="RunManager">
+    <configuration name="buble_sort" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="2task" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/BubleSort" />
@@ -58,7 +58,7 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/BubleSort/BubleSort.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/BubleSort/buble_sort.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
@@ -118,7 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Ruby.BubleSort" />
+        <item itemvalue="Ruby.buble_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +137,13 @@
       <workItem from="1569159997534" duration="3953000" />
       <workItem from="1569165254747" duration="13403000" />
       <workItem from="1569228538180" duration="2437000" />
+      <workItem from="1569393393031" duration="3882000" />
+      <workItem from="1570995913957" duration="21000" />
+      <workItem from="1570995959627" duration="194000" />
+      <workItem from="1570996169348" duration="770000" />
+      <workItem from="1570997060968" duration="834000" />
+      <workItem from="1570997918217" duration="706000" />
+      <workItem from="1571172929252" duration="1301000" />
     </task>
     <servers />
   </component>
@@ -144,9 +151,12 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/2task@ceaser.rcov" NAME="ceaser Coverage Results" MODIFIED="1569165346440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CeaserEncypher" MODULE_NAME="2task" />
+    <SUITE FILE_PATH="coverage/2task@ceaser.rcov" NAME="ceaser Coverage Results" MODIFIED="1571173523717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CeaserEncypher" MODULE_NAME="2task" />
+    <SUITE FILE_PATH="coverage/2task@Buble_Sort.rcov" NAME="Buble_Sort Coverage Results" MODIFIED="1570997472537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BubleSort" MODULE_NAME="2task" />
     <SUITE FILE_PATH="coverage/2task@main__1_.rcov" NAME="main (1) Coverage Results" MODIFIED="1569173497063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classofclasses" MODULE_NAME="2task" />
-    <SUITE FILE_PATH="coverage/2task@main.rcov" NAME="main Coverage Results" MODIFIED="1569182631828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListOfClasses" MODULE_NAME="2task" />
+    <SUITE FILE_PATH="coverage/2task@buble_sort.rcov" NAME="buble_sort Coverage Results" MODIFIED="1571174171801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BubleSort" MODULE_NAME="2task" />
+    <SUITE FILE_PATH="coverage/2task@main.rcov" NAME="main Coverage Results" MODIFIED="1571173515600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListOfClasses" MODULE_NAME="2task" />
     <SUITE FILE_PATH="coverage/2task@BubleSort.rcov" NAME="BubleSort Coverage Results" MODIFIED="1569230531504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BubleSort" MODULE_NAME="2task" />
+    <SUITE FILE_PATH="coverage/2task@Ceaser.rcov" NAME="Ceaser Coverage Results" MODIFIED="1570997771051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CeaserEncypher" MODULE_NAME="2task" />
   </component>
 </project>

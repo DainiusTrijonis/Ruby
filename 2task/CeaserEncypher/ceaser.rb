@@ -1,21 +1,9 @@
-def shift_char(c, base, offset)
-(((c.ord - base) + offset) % 26 + base).chr
-end
+# frozen_string_literal: true
 
-def cipher(s, offset)
-  s.chars.map do |c|
-    case c
-    when 'a'..'z'
-      shift_char(c, 'a'.ord, offset)
-    when 'A'..'Z'
-      shift_char(c, 'A'.ord, offset)
-    else
-      c
-    end
-  end.join
+def cipher(org, offset)
+  org.chars.map { |c| (c.to_s.ord + offset).chr }.join
 end
-
-cipher_text = cipher('text', 13)
+cipher_text = cipher('labas', 10)
 p cipher_text
-original_text = cipher(cipher_text, -13)
+original_text = cipher(cipher_text, -10)
 p original_text
