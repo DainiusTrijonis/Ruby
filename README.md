@@ -1,1 +1,1 @@
-# RubyAntras
+# Ruby uzduotis
