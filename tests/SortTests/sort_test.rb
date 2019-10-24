@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'test/unit'
-require_relative 'sort'
+require_relative '../../Sort/sort'
 
 # Sort class unit tests
 class SortTest < Test::Unit::TestCase

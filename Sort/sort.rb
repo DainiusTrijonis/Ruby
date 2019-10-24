@@ -6,12 +6,12 @@ class Sort
     swapped = true
     while swapped
       swapped = false
-      array.size - 1.each do |i|
+      0.upto(array.size - 2) do |i|
         if array[i] > array[i + 1]
-          array[i], array[i + 1] = array[i + 1], array[i]
-          swapped = true
+          array[i], array[i + 1], swapped = array[i + 1], array[i], true
         end
       end
     end
+    array
   end
 end
